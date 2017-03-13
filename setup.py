@@ -25,7 +25,7 @@ license = munkres.__license__
 # Run setup
 
 setup(
-    name="munkres",
+    name="pymunkres",
     version=version,
     description="munkres algorithm for the Assignment Problem",
     long_description=long_description,
@@ -33,7 +33,7 @@ setup(
     license=license,
     author=author,
     author_email=email,
-    py_modules=["munkres"],
+    py_modules=["pymunkres"],
     classifiers = [
         'Intended Audience :: Developers',
         'Intended Audience :: Science/Research',
