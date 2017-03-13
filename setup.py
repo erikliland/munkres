@@ -13,8 +13,8 @@ import imp
 
 here = os.path.dirname(os.path.abspath(sys.argv[0]))
 sys.path = [here] + sys.path
-mf = os.path.join(here, 'munkres.py')
-munkres = imp.load_module('munkres', open(mf), mf,
+mf = os.path.join(here, 'pymunkres.py')
+munkres = imp.load_module('pymunkres', open(mf), mf,
                           ('__init__.py', 'r', imp.PY_SOURCE))
 long_description = munkres.__doc__
 version = str(munkres.__version__)
